@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0;
+}
+p{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+h1{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+}
+.nav-bar{
+    background-color: #E43071;
+    
+    
+}
+.nav-but{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-inline: auto;
+    width: min(100%,1500px);
+    height: 100px;
+}
+.nav-but p:active{
+    color:rgb(222, 222, 222);
+}
+.search{
+    display: flex;
+    align-items:center;
+}
+
+.search img{
+    padding-left: 6px;
+}
+
+.nav-bar :nth-child(8){
+    background-color: white;
+    color: #E43071;
+    width: 166px;
+    height: 50px;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar :nth-child(8):active{
+    background-color:rgb(222, 222, 222);
+    color: #E43071;
+}
+
+.hero{
+    background-image: url(./images/Female\ working\ out.png);
+    width: min(100%,1920px);
+    height: 697px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+}
+.content{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.content h1{
+    font-size: 70px;
+}
+.content p{
+    background-color:#E43071;
+    width: 236px;
+    height: 68px;
+    border-radius:40px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.content p:active{
+    background-color: #ce2b67;
+}
