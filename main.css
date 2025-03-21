@@ -172,7 +172,7 @@ h1{
     margin-inline: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .content3 :nth-child(1){
